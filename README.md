@@ -12,7 +12,8 @@ The same is true of content publishing; as it has become increasingly specialise
 1.  Blog / news content - where new content is published frequently, and is thus  published using a standardised template to speed up delivery.
 1.  Downloadable files - the sharing of offline content via web rather than email attachment.
 1.  Forms and feedback - online forms and signup processes to gather information in a central place
-1.  Forums and community - places for your the community reading your content to interact
+1.  Online shop - catalog, checkout and payment processes
+1.  Forums, wiki's and community - places for the community reading your content to interact with each other
 1.  Push updates - Email newsletters, email discussion groups, realtime short messages.
 1.  Video publishing
 1.  WebApps - specialised single page applications & widgets
@@ -40,7 +41,7 @@ The glue? A caching reverse proxy web server.
 
 ### HOWTO:
 
-The proxy server manages your master URL - eg www.cityindex.co.uk - and 
+The proxy server manages your master URL - eg www.mycompany.co.uk - and 
 is configured to pull content from a variety of backed sources.  If one of those back ends is down, it just serves the most recent content it has. 
  
 This frees the content creators to use the best tool for their content. Static HTML files for static pages.  Dropbox for PDFs.  Wordpress for blogs.  ASP.NET apps for functionality. etc. etc. 
