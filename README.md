@@ -44,5 +44,6 @@ The glue? A caching reverse proxy web server.
 The proxy server manages your master URL - eg www.mycompany.co.uk - and 
 is configured to pull content from a variety of backed sources.  If one of those back ends is down, it just serves the most recent content it has. 
  
-This frees the content creators to use the best tool for their content. Static HTML files for static pages.  Dropbox for PDFs.  Wordpress for blogs.  ASP.NET apps for functionality. etc. etc. 
- 
+This frees the content creators to use the best tool for their content. Static HTML files for static pages.  Dropbox for PDFs.  Wordpress for blogs. ASP.NET apps for functionality. etc. etc. 
+
+<img src="https://docs.google.com/drawings/d/1lY06fh_z7ZeN04-RcSdxIgp_wQBSRZjxvV-xHk53P58/pub?w=480&amp;h=360">
