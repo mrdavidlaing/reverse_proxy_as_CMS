@@ -8,6 +8,7 @@
   1. IIS: Tracing  
   1. IIS: HTTP Logging
   1. IIS: Default document
+  1. IIS: Static Content Compression
   
 These are easiest to install using the Web Platform Installer - http://www.microsoft.com/web/downloads/platform.aspx
 
