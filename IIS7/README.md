@@ -19,7 +19,17 @@ These are easiest to install using the Web Platform Installer - http://www.micro
 ```
 127.0.0.1		www.mycompany.co.uk
 ```
+1.  Edit `C:\windows\system32\inetsrv\config\applicationHost.config` and add the element
 
+```
+<rewrite>
+...
+ <allowedServerVariables>
+    <add name="HTTP_ACCEPT_ENCODING" />
+  </allowedServerVariables>
+...
+
+```
 1.  Create a new IIS 7.5 site pointing to the `c:\inetpub\reverse_proxy_as_CMS\IIS7\www.mycompany.co.uk` folder, with host header set to `www.mycompany.co.uk/`.  Leave everything else at the defaults.
 1.  Select the server node on the left, open the Application Request Routing feature, Proxy and check "Enable proxy"
 1.  Open a (local) browser, and browse to `http://www.mycompany.co.uk`.  You should see content being proxied from the backend content sources
