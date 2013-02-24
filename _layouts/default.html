@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Measure Template</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/theme.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+</head>
+<body>
+    <a href="#" class="scrolltop">
+        <span>up</span>
+    </a>
+    <!-- begins navbar -->
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+            <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </a>
+            <a class="brand" href="index.html">
+                <img src="img/logo.png" alt="logo" /> <span class="logo_text">Reverse Proxy as CMS</span>
+            </a>
+            <div class="nav-collapse collapse">
+                <ul class="nav pull-right">
+                    <li><a href="problem.html">The problem</a></li>
+                    <li><a href="solution.html">The solution</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                            Reverse proxy examples
+                            <b class="caret"></b>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="IIS7.html">IIS7 using ARR and UrlRewrite</a></li>
+                            <li><a href="Nginx.html">Nginx</a></li>
+                            <li><a href="Varnish.html">Varnish</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="btn-header" href="https://github.com/mrdavidlaing/reverse_proxy_as_CMS">Fork me on GitHub</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+      </div>
+    </div>
+    <!-- ends navbar -->
+
+    {{ content }}
+
+    <!-- starts footer -->
+    <div id="footer">
+        <div class="container">
+            <div class="row copyright">
+                <div class="span5">
+                    <h3>Social</h3>
+                    <a href="#" class="social fb">
+                        <i class="i_facebook"></i>
+                    </a>
+                    <a href="#" class="social tw">
+                        <i class="i_twitter"></i>
+                    </a>
+                    <a href="#" class="social yt">
+                        <i class="i_youtube"></i>
+                    </a>
+                </div>
+                <div class="span2 offset5 copy">
+                    <p>2013 - David Laing</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/theme.js"></script>
+</body>
+</html>
