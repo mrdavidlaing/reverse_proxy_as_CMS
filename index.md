@@ -15,7 +15,7 @@ title: "Home"
 						<div class="active item slide1">
 							<div class="row">
 								<div class="span6">
-									<img src="img/slide1.png" alt="slide1" />
+									<img src="http://www.doctorramey.com/wp-content/uploads/2011/04/frustration.cartoon.jpg" alt="slide1" />
 								</div>
 								<div class="span4">
 									<h1>
@@ -24,7 +24,7 @@ title: "Home"
 									<p>Feel like you're fighting your CMS at every turn?  
 										Wish it would just get out the way?</p>
 									<a href="" class="btn btn-success btn-large">
-										Learn how
+										Understand the problem
 									</a>
 								</div>
 							</div>
@@ -35,7 +35,7 @@ title: "Home"
 								<div class="span4 animated fadeInUpBig">
 									<h1>Assemble your site from the best components:</h1>
 									<p>
-										<ul style="margin-left:55px">
+										<ul style="margin-left:25px">
 											<li>Plain HTML for static content</li>
 											<li>Blog software for articles</li>
 											<li>Cloud storage for files</li>
@@ -43,11 +43,11 @@ title: "Home"
 										</ul>
 									</p>
 									<a href="blog.html" class="btn btn-success btn-large">
-										Show me more
+										See the solution
 									</a>
 								</div>
 								<div class="span6 animated fadeInDownBig">
-									<img src="img/slide2.png" alt="slide2" />
+									<img src="https://docs.google.com/drawings/d/1lY06fh_z7ZeN04-RcSdxIgp_wQBSRZjxvV-xHk53P58/pub?w=480&amp;h=280" alt="slide2" />
 								</div>
 							</div>
 						</div>
