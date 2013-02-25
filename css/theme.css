@@ -561,7 +561,7 @@ input[type="color"]:focus,
 	text-align: center;
 	font-weight: bolder;
 	color: #252b34;
-	margin-top: 80px;
+	margin-top: 40px;
 	position: relative;
 	margin-bottom: 40px;
 }
@@ -572,7 +572,7 @@ input[type="color"]:focus,
 .section_header hr {
 	border-top: 1px solid #BEC0C3;
 	border-bottom: 2px solid white;
-	width: 36%;
+	width: 15%;
 	position: absolute;
 }
 .section_header hr.left { }
@@ -581,7 +581,7 @@ input[type="color"]:focus,
 	top: 0px;
 }
 .section_header span {
-	width: 27%;
+	width: 70%;
 	display: block;
 	margin: 0 auto;
 }
