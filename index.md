@@ -8,16 +8,16 @@ title: "Home"
 		<!-- starts carousel -->
 		<div class="row animated fadeInDown">
 			<div class="span12">
-				<div id="myCarousel" class="carousel slide">
+				<div id="myCarousel" class="carousel slide" data-interval="5000">
 					<!-- carousel items -->
 					<div class="carousel-inner">
 						<!-- slide -->
 						<div class="active item slide1">
 							<div class="row">
-								<div class="span6">
-									<img src="http://www.doctorramey.com/wp-content/uploads/2011/04/frustration.cartoon.jpg" alt="slide1" />
+								<div class="span5">
+									<img src="http://www.doctorramey.com/wp-content/uploads/2011/04/frustration.cartoon.jpg" alt="slide1" style="height:300px"/>
 								</div>
-								<div class="span4">
+								<div class="span5">
 									<h1>
 										Does your one-size-fits-all CMS get you down?
 									</h1>
@@ -32,10 +32,10 @@ title: "Home"
 						<!-- slide -->
 						<div class="item slide2">
 							<div class="row">
-								<div class="span4 animated fadeInUpBig">
+								<div class="span6 animated fadeInUpBig">
 									<h1>Assemble your site from the best components:</h1>
 									<p>
-										<ul style="margin-left:25px">
+										<ul style="margin-left:45px">
 											<li>Plain HTML for static content</li>
 											<li>Blog software for articles</li>
 											<li>Cloud storage for files</li>
@@ -46,8 +46,8 @@ title: "Home"
 										See the solution
 									</a>
 								</div>
-								<div class="span6 animated fadeInDownBig">
-									<img src="https://docs.google.com/drawings/d/1lY06fh_z7ZeN04-RcSdxIgp_wQBSRZjxvV-xHk53P58/pub?w=480&amp;h=280" alt="slide2" />
+								<div class="span4 animated fadeInDownBig">
+									<iframe src="https://cityindex.viewscreencasts.com/embed/2a77b29eeff04af19f2fa02c876758dc" width="400" height="300" seamless="true">Your browser does not seem to handle frames properly.  Watch the screencast <a href="https://cityindex.viewscreencasts.com/2a77b29eeff04af19f2fa02c876758dc">here</a></iframe>
 								</div>
 							</div>
 						</div>
@@ -55,6 +55,7 @@ title: "Home"
 					<!-- Carousel nav -->
 					<a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
 					<a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+
 				</div>
 			</div>
 		</div>
