@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>{{ page.title }}</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Bootstrap -->
+    <link href="/css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/css/theme.css">
+    <link rel="stylesheet" type="text/css" href="/css/animate.css">
+</head>
+<body>
+    <a href="#" class="scrolltop">
+        <span>up</span>
+    </a>
+
+    {% include navbar.html %}
+
+    <div id="features" class="features_page">
+        <div class="container">
+
+            <div class="features2">
+                <!-- features 2 -->
+                <h2 class="section_header">
+                    <hr class="left visible-desktop">
+                    <span>{{ page.title }}</span>
+                    <hr class="right visible-desktop">
+                </h2>
+
+                <div class="row">
+                    <div class="span12">
+                        <h3 class="intro">
+                            {{ page.intro }}
+                        </h3>
+                        {{ content }}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    {% include footer.html %}
+
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/theme.js"></script>
+</body>
+</html>
