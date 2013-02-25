@@ -47,7 +47,8 @@ title: "Home"
 									</a>
 								</div>
 								<div class="span4 animated fadeInDownBig">
-									<iframe src="https://cityindex.viewscreencasts.com/embed/2a77b29eeff04af19f2fa02c876758dc" width="400" height="300" seamless="true">Your browser does not seem to handle frames properly.  Watch the screencast <a href="https://cityindex.viewscreencasts.com/2a77b29eeff04af19f2fa02c876758dc">here</a></iframe>
+									<iframe src="https://cityindex.viewscreencasts.com/embed/2a77b29eeff04af19f2fa02c876758dc" width="400" height="285" seamless="true">Your browser does not seem to handle frames properly.  Watch the screencast <a href="https://cityindex.viewscreencasts.com/2a77b29eeff04af19f2fa02c876758dc">here</a></iframe>
+									<small>(<a href="https://cityindex.viewscreencasts.com/2a77b29eeff04af19f2fa02c876758dc" target="_blank">open screencast in separate window</a>)</small>
 								</div>
 							</div>
 						</div>
