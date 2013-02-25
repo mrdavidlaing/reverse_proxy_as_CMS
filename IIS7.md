@@ -1,7 +1,7 @@
 ---
 layout: "page"
 title: "IIS7 using ARR and UrlRewrite"
-intro: "The Url Rewrite 2 and Application Resource Routing features of IIS7+ make it credible reverse proxy."
+intro: "The Url Rewrite 2 and Application Resource Routing features of IIS7+ make it a credible reverse proxy."
 ---
 
 The only area in which it falls short is automatic failover to cached content when the primary source fails.
@@ -27,13 +27,13 @@ Adding the IIS7 extensions mentioned above is easiest using the [Web Platform In
 1.  Checkout the [master branch of this repository](https://github.com/mrdavidlaing/reverse_proxy_as_CMS) to below the `c:\inetpub` folder.  (This location is highly recommended to avoid IIS file permission errors)
 1.  Setup a fake domain name pointing to localhost by opening Notepad as Administrator,  editing `c:\Windows\System32\drivers\etc\HOSTS` and adding the line
 
-```
+{% highlight text%}
 127.0.0.1       www.reverse-proxy-as-cms.info
-```
+{% endhighlight %}
 
 1.  Edit `C:\windows\system32\inetsrv\config\applicationHost.config` and add the element
 
-{% highlight %}
+{% highlight xml%}
 <rewrite>
 ...
   <allowedServerVariables>
