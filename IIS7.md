@@ -9,6 +9,18 @@ However, the Url Rewrite 2 extension model make it straightforward to extend the
 
 The guide below shows how this site can be served via IIS7.
 
+## How it works
+
+This site is made up of content from the following locations:
+
+1. Static content (generated using [Jekyll](http://jekyllrb.com/)); published at [http://mrdavidlaing.github.com/reverse_proxy_as_CMS/](http://mrdavidlaing.github.com/reverse_proxy_as_CMS/)
+1. A FAQ wiki (built on GitHub Wiki); published at [https://github.com/mrdavidlaing/reverse_proxy_as_CMS/wiki/FAQ](https://github.com/mrdavidlaing/reverse_proxy_as_CMS/wiki/FAQ)
+1. Whitepaper PDFs; published on Google Drive at [https://googledrive.com/host/0B0iLBOBULteOZjNlYTVrVWljR2M/](https://googledrive.com/host/0B0iLBOBULteOZjNlYTVrVWljR2M/)
+1. A single page HTML5 WebApp (built using AngularJs), published at [http://angularjs_travis-ci_browserstack.cloudfoundry.com/](http://angularjs_travis-ci_browserstack.cloudfoundry.com/)
+
+This content is all pulled together under a single url [http://www.reverse-proxy-as-cms.info](http://www.reverse-proxy-as-cms.info) using [this IIS config](https://github.com/mrdavidlaing/reverse_proxy_as_CMS/blob/master/IIS7/www.reverse-proxy-as-cms.info/Web.config), which basically pulls content from each of the backend locations, and updates the HTML to contain the correct internal Urls and inject some branding.
+
+
 ## Pre-requisits:
 
 1.  Windows 7 or Windows Server 2008 or later
@@ -45,7 +57,5 @@ Adding the IIS7 extensions mentioned above is easiest using the [Web Platform In
 1.  Create a new IIS site pointing to the `c:\inetpub\reverse_proxy_as_CMS\IIS7\www.reverse-proxy-as-cms.info` folder, processing requests with host header `www.reverse-proxy-as-cms.info` sent to port 80.  Leave everything else at the defaults.
 1.  Select the server node on the left, open the Application Request Routing feature, Proxy and check "Enable proxy"
 1.  Browse to `http://www.reverse-proxy-as-cms.info` using a browser on the same machine whoes HOST file you edited.  You will see content being proxied from the backend content sources.
-
-## How it works
 
 
