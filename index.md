@@ -8,7 +8,7 @@ title: "Home"
 		<!-- starts carousel -->
 		<div class="row animated fadeInDown">
 			<div class="span12">
-				<div id="myCarousel" class="carousel slide" data-interval="5000">
+				<div id="myCarousel" class="carousel slide" data-interval="5000" data-pause="hover">
 					<!-- carousel items -->
 					<div class="carousel-inner">
 						<!-- slide -->
