@@ -7,9 +7,8 @@ intro: "The Url Rewrite 2 and Application Resource Routing features of IIS7+ mak
 The only area in which it falls short is automatic failover to cached content when the primary source fails.
 However, the Url Rewrite 2 extension model make it straightforward to extend the functionality and add failover.
 
-The screencast and below shows how this site can be served via IIS7.
+[This screencast](https://cityindex.viewscreencasts.com/2a77b29eeff04af19f2fa02c876758dc) and the guide below shows how this site can be served via IIS7.
 
-<iframe src="https://cityindex.viewscreencasts.com/embed/2a77b29eeff04af19f2fa02c876758dc" width="560" height="395" frameborder="0" />
 
 ## How it works
 
