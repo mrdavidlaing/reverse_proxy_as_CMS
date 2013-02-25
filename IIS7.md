@@ -9,7 +9,7 @@ However, the Url Rewrite 2 extension model make it straightforward to extend the
 
 The screencast and below shows how this site can be served via IIS7.
 
-<iframe src="https://cityindex.viewscreencasts.com/embed/2a77b29eeff04af19f2fa02c876758dc" width="560" height="395" frameborder="0"></iframe>
+<iframe src="https://cityindex.viewscreencasts.com/embed/2a77b29eeff04af19f2fa02c876758dc" width="560" height="395" frameborder="0" />
 
 ## How it works
 
