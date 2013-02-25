@@ -23,7 +23,7 @@ title: "Home"
 									</h1>
 									<p>Feel like you're fighting your CMS at every turn?  
 										Wish it would just get out the way?</p>
-									<a href="" class="btn btn-success btn-large">
+									<a href="problem.html" class="btn btn-success btn-large">
 										Understand the problem
 									</a>
 								</div>
@@ -42,7 +42,7 @@ title: "Home"
 											<li>Custom servers for WebApps</li>
 										</ul>
 									</p>
-									<a href="blog.html" class="btn btn-success btn-large">
+									<a href="solution.html" class="btn btn-success btn-large">
 										See the solution
 									</a>
 								</div>
