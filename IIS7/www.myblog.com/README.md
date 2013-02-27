@@ -1,6 +1,6 @@
 ## Overview
 
-[!Screencast of this in action](https://f.cloud.github.com/assets/227505/199198/7fe1e402-8076-11e2-8314-b8ebb2c84084.png)](https://cityindex.viewscreencasts.com/6da7bf63f4f524edb5a5388de3a5afbb)
+[[!Screencast of this in action](https://f.cloud.github.com/assets/227505/199198/7fe1e402-8076-11e2-8314-b8ebb2c84084.png)](https://cityindex.viewscreencasts.com/6da7bf63f4f524edb5a5388de3a5afbb)
 
 ([open screencast in separate window](https://cityindex.viewscreencasts.com/6da7bf63f4f524edb5a5388de3a5afbb))
 
