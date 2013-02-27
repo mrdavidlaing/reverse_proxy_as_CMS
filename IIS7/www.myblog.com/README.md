@@ -1,7 +1,8 @@
 ## Overview
 
+[!Screencast of this in action](https://f.cloud.github.com/assets/227505/199198/7fe1e402-8076-11e2-8314-b8ebb2c84084.png)](https://cityindex.viewscreencasts.com/6da7bf63f4f524edb5a5388de3a5afbb)
 
-([open screencast in separate window](https://))
+([open screencast in separate window](https://cityindex.viewscreencasts.com/6da7bf63f4f524edb5a5388de3a5afbb))
 
 ## Pre-requisits:
 
@@ -35,6 +36,7 @@ These are easiest to install using the Web Platform Installer - http://www.micro
 ...
 
 ```
+1.  Restart IIS after these changes - from an Administrator command prompt run `iisreset`
 1.  Create a new IIS 7.5 site pointing to the `c:\inetpub\reverse_proxy_as_CMS\IIS7\www.myblog.com` folder, with host header set to `www.myblog.com`.  Leave everything else at the defaults.
 1.  Select the server node on the left, open the Application Request Routing feature, Proxy and check "Enable proxy"
 1.  Open a (local) browser, and browse to `http://labs.cityindex.com/ciapi-client-libraries/`.  
